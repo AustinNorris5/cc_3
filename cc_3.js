@@ -42,6 +42,21 @@ feedback.push ({customerName: "Gabe Vincent", feedbackText: "Perfect", rating: 1
 
 console.log("Customer Feedback:", feedback); //Log the entire feedback list to the console
 
+//Task 5:  Inventory Management System Scenario
+const inventory = {
+    itemName: "Shoes",
+    stockCount: 30,
+    price: 150, //Declare an object inventory with properties
+    calculateTotalValue: function () {
+        return this.stockCount * this.price
+    } //Add a method calculateTotalValue that returns the total value
+};
+
+console.log("Inventory Details:");
+console.log(`Item Name: ${inventory.itemName}`);
+console.log(`Stock Count: ${inventory.stockCount}`);
+console.log(`Price: $${inventory.price}`);
+console.log(`Total Inventory Value: $${inventory.calculateTotalValue()}`); //Log the inventory details and total value to the console
 
 
 
