@@ -40,7 +40,10 @@ let feedback = [
 
 feedback.push ({customerName: "Gabe Vincent", feedbackText: "Perfect", rating: 10}) //Add a new feedback object to the array
 
-console.log("Customer Feedback:", feedback); //Log the entire feedback list to the console
+console.log("Customer Feedback:");
+console.log(`Customer Name: ${feedback.customerName}`);
+console.log(`Feedback Text: ${feedback.feedbackText}`);
+console.log(`Rating: ${feedback.rating}`); //Log the entire feedback list to the console
 
 //Task 5:  Inventory Management System Scenario
 const inventory = {
